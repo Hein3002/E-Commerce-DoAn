@@ -1,0 +1,20 @@
+interface OrderType {
+    id?: string,
+    userid?: string,
+    fullname?: string,
+    address?: string,
+    email?: string,
+    phone?: string,
+    quantity?: string,
+    province?: string,
+    district?: string,
+    ward?: string,
+    street?: string,
+    zip?: string,
+    moneytotal?: number,
+    pay?: string,
+    status?: number,
+    created_at?: string,
+    updated_at?: string,
+}
+export default OrderType;
